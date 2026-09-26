@@ -1,0 +1,12 @@
+{
+    "sessionId": "test-session-001",
+    "invocationSource": "DialogCodeHook",
+    "sessionState": {
+        "intent": {
+            "name": "WelcomeIntent",
+            "state": "InProgress",
+            "slots": {}
+        }
+    },
+    "inputTranscript": "Hello"
+}
