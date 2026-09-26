@@ -1,4 +1,5 @@
 import json
+import os
 import sys
 
 sys.path.insert(0, ".")
@@ -6,7 +7,11 @@ sys.path.insert(0, ".")
 import handler
 
 
-with open("test_event.json", "r", encoding="utf-8") as file:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+EVENT_FILE = os.path.join(BASE_DIR, "test_event.json")
+
+
+with open(EVENT_FILE, "r", encoding="utf-8") as file:
     event = json.load(file)
 
 
