@@ -1,12 +1,22 @@
-{
-    "sessionId": "test-session-001",
-    "invocationSource": "DialogCodeHook",
-    "sessionState": {
-        "intent": {
-            "name": "WelcomeIntent",
-            "state": "InProgress",
-            "slots": {}
+﻿{
+  "messageVersion": "1.0",
+  "invocationSource": "DialogCodeHook",
+  "inputMode": "Text",
+  "sessionId": "carevoice-local-test-001",
+  "inputTranscript": "I want to book an appointment",
+  "sessionState": {
+    "intent": {
+      "name": "BookAppointmentIntent",
+      "state": "InProgress",
+      "slots": {
+        "patientId": {
+          "value": {
+            "originalValue": "P1001",
+            "interpretedValue": "P1001",
+            "resolvedValues": ["P1001"]
+          }
         }
-    },
-    "inputTranscript": "Hello"
+      }
+    }
+  }
 }

@@ -1,0 +1,12 @@
+﻿{
+  "patients": [
+    {
+      "name": "Aisha Khan",
+      "phone": "+91-9000000001"
+    },
+    {
+      "name": "Rahul Mehta",
+      "phone": "+91-9000000002"
+    }
+  ]
+}

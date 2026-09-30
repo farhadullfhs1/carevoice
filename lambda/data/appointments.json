@@ -1,0 +1,22 @@
+﻿{
+  "appointments": [
+    {
+      "patient_name": "Aisha Khan",
+      "phone_number": "+91-9000000001",
+      "doctor_name": "Dr. Sharma",
+      "specialty": "Cardiology",
+      "date": "2026-09-29",
+      "time": "09:30",
+      "status": "CONFIRMED"
+    },
+    {
+      "patient_name": "Rahul Mehta",
+      "phone_number": "+91-9000000002",
+      "doctor_name": "Dr. Patel",
+      "specialty": "Dermatology",
+      "date": "2026-09-29",
+      "time": "10:30",
+      "status": "CONFIRMED"
+    }
+  ]
+}
