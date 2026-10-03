@@ -6,6 +6,15 @@ The assistant handles appointment-related conversations such as booking an appoi
 
 The project was built with a focus on **serverless architecture, AWS service integration, conversational workflows, and infrastructure management with Terraform**.
 
+
+## AWS Services Used
+- Amazon Lex V2 — conversational interface and intent/slot management
+- AWS Lambda — serverless backend and appointment business logic
+- Amazon DynamoDB — storage for confirmed appointments
+- Amazon CloudWatch — Lambda logging and monitoring
+- AWS IAM — Lambda execution permissions and DynamoDB access
+- Terraform — infrastructure management and configuration tracking
+
 ---
 
 ## Architecture
